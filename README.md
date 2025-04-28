@@ -1,4 +1,4 @@
-# Provably and Efficient Robust Conformal Prediction with a Realistic Threat Model (submitted to COPA25)
+# Provably Efficient and Robust Conformal Prediction under a Realistic Threat Model (submitted to COPA25)
 
 [![Built with SECML](https://img.shields.io/badge/Built%20with-SECML-4c1.svg)](https://secml.readthedocs.io/en/v0.15/)
 [![Uses RobustBench](https://img.shields.io/badge/Uses-RobustBench-blue)](https://robustbench.github.io/)
