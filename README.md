@@ -1,9 +1,8 @@
 # Provably and Efficient Robust Conformal Prediction with a Realistic Threat Model (submitted to COPA25)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2405.18942-b31b1b.svg)](https://arxiv.org/abs/2405.18942)
 [![Built with SECML](https://img.shields.io/badge/Built%20with-SECML-4c1.svg)](https://secml.readthedocs.io/en/v0.15/)
 
-**Alberto Carlevaro^1**, **Luca Oneto^2**, **Davide Anguita^2**, and **Fabio Roli^2**  
+**Alberto Carlevaro<sup>1</sup>**, **Luca Oneto<sup>2</sup>**, **Davide Anguita<sup>2</sup>**, and **Fabio Roli<sup>2</sup>**
 1. CNR - Istituto di Elettronica e di Ingegneria dell’Informazione e delle Telecomunicazioni (CNR-IEIIT)
 2. Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi (DIBRIS), University of Genoa, Italy  
 
