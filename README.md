@@ -8,17 +8,6 @@
 
 ---
 
-## Table of Contents
-
-- [Abstract](#abstract)
-- [How to Use](#how-to-use)
-- [Libraries Used](#libraries-used)
-- [Future Steps](#future-steps)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
----
-
 ## Abstract
 
 Robust conformal prediction is a model-agnostic technique for constructing predictive sets with guaranteed coverage under the assumption of data exchangeability, even in the presence of adversarial attacks.  
