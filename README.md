@@ -3,10 +3,10 @@
 [![Built with SECML](https://img.shields.io/badge/Built%20with-SECML-4c1.svg)](https://secml.readthedocs.io/en/v0.15/)
 [![Uses RobustBench](https://img.shields.io/badge/Uses-RobustBench-blue)](https://robustbench.github.io/)
 
-**Alberto Carlevaro<sup>1</sup>**, **Luca Oneto<sup>2</sup>**, **Davide Anguita<sup>2</sup>**, and **Fabio Roli<sup>2</sup>**
+**Alberto Carlevaro<sup>1</sup>**, **Luca Oneto<sup>2</sup>**, **Davide Anguita<sup>2</sup>**, and **Fabio Roli<sup>2,3</sup>**
 1. CNR - Istituto di Elettronica e di Ingegneria dell’Informazione e delle Telecomunicazioni (CNR-IEIIT)
 2. Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi (DIBRIS), University of Genoa, Italy  
-
+3. DIEE, University of Cagliari, Via Marengo, Cagliari, 09123, Italy.
 ---
 
 ## Abstract
