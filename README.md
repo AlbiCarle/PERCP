@@ -12,13 +12,24 @@
 
 ## Abstract
 
-Robust conformal prediction is a model-agnostic technique for constructing predictive sets with guaranteed coverage under the assumption of data exchangeability, even in the presence of adversarial attacks.  
-Two primary strategies have been explored to address vulnerabilities to these attacks: randomization (efficient but overly conservative) and formal verification (provably robust but computationally prohibitive and often unfalsifiable).
-
-In this paper, we propose a novel, provably efficient robust conformal prediction method by defining a realistic threat model: we assume explicit knowledge of the set of potential adversarial attacks, aligning with standard certification practices. We demonstrate that model attacks can be reframed as attacks on the score function, allowing recalibration of the score quantile to restore coverage guarantees without heavy verification.
-
-Although initially limited to known attacks, the framework can rapidly incorporate zero-day attacks as they are discovered, maintaining robustness.  
-Our empirical evaluation on real-world classification datasets shows that our approach achieves strong practical performance compared to state-of-the-art methods, with significant computational efficiency.
+Robust conformal prediction is a model-agnostic technique designed to construct predictive sets with guaranteed coverage, assuming data exchangeability, even under adversarial
+attacks. Two primary strategies have been explored to address vulnerabilities to these
+attacks. The first strategy employs randomization, which is computationally efficient but
+fails to provide formal performance guarantees without resulting in overly conservative
+predictive sets. The second strategy involves formal verification, which restores coverage
+guarantees but leads to excessively conservative predictive sets and prohibitive computational overhead. Indeed, verification generally becomes NP-hard as it attempts to cope
+with attacks that are practically impossible, rendering some security claims unfalsifiable.
+In this paper, we propose a novel, provably efficient robust conformal prediction method
+by clearly defining a realistic threat model. Specifically, we assume explicit knowledge of
+the set of potential adversarial attacks, aligning our approach with standard certification
+procedures designed to certify against specific, identified threats. We demonstrate that
+attacks targeting the model can effectively be reframed as attacks on the score function,
+allowing us to recalibrate the score quantile to account for these known attacks and thereby
+restore desired coverage guarantees. It is worth noting that our approach allows to easily
+incorporate unknown or emerging (zero-day) attacks upon discovery, thus reestablishing
+coverage guarantees. By avoiding computationally intensive verification and operating
+under realistic threat assumptions, our approach achieves both efficiency and provable robustness. Empirical evaluations on real-world classification datasets and comparisons with
+state-of-the-art methods support the effectiveness and practicality of our proposed solution.
 
 ---
 
