@@ -92,6 +92,12 @@ This work was partially supported by:
 
 ## How to cite this work
 
-Still under submission
-
+@article{carlevaro2025provably,
+  title={Provably Efficient and Robust Conformal Prediction under a Realistic Threat Model},
+  author={Carlevaro, Alberto and Oneto, Luca and Anguita, Davide and Roli, Fabio and others},
+  journal={Proceedings of Machine Learning Research},
+  volume={266},
+  pages={1--20},
+  year={2025}
+}
 ---
