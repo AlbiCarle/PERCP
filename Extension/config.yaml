@@ -1,0 +1,23 @@
+models:
+  - Wang2023Better_WRN-70-16
+  - Amini2024MeanSparse_S-WRN-70-16
+  - Rebuffi2021Fixing_70_16_cutmix_extra
+  - Gowal2020Uncovering
+  - Augustin2020Adversarial_34_10
+  - Wu2020Adversarial
+  - Engstrom2019Robustness
+  - Rice2020Overfitting
+  - Rony2019Decoupling
+  - Ding2020MMA
+
+norm: L2
+eps: 0.5
+alpha: 0.1
+
+n_cal: 1000
+n_test: 500
+n_train: 1000
+batch_size: 32
+
+device: cuda
+model_dir: ./models

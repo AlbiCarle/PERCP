@@ -1,0 +1,30 @@
+models:
+    - Tian2022Deeper_DeiT-B  
+  #- Tian2022Deeper_DeiT-S  
+  #- Erichson2022NoisyMix_new  
+  #- Erichson2022NoisyMix
+  #- Geirhos2018_SIN_IN
+   #- Xu2024MIMIR_Swin-L #1
+   #- Liu2023Comprehensive_Swin-L #2
+   #- Bai2024MixedNUTS #
+   #- Liu2023Comprehensive_ConvNeXt-L
+   #- Singh2023Revisiting_ConvNeXt-L-ConvStem
+   #- Liu2023Comprehensive_Swin-B
+    - RodriguezMunoz2024Characterizing_Swin-LB #8
+    - Engstrom2019Robustness #7
+    - Wong2020Fast #8
+    - Salman2020Do_R18 #9
+    
+norm: Linf
+eps: 0.0156862745
+alpha: 0.1
+
+n_cal: 400
+n_test: 100
+n_train: 1
+batch_size: 8
+
+device: cuda
+model_dir: ./models
+
+corruption: Linf
